@@ -1,0 +1,82 @@
+html {
+    margin: 0.7rem;
+}
+
+.group-logo {
+    width: 10%;
+}
+
+.img-home {
+    width: 30rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    /* border: solid 0.2rem; */
+    background-color: gainsboro;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    padding-right: 3rem;
+}
+
+.filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtro>div {
+    padding: 1rem;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 0.8rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* border: solid 0.2rem; */
+    background-color: gainsboro;
+    padding: 1rem;
+}
+
+.description-table,
+.tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    width: 40rem;
+}
+
+#selectState {
+    width: 8rem
+}
